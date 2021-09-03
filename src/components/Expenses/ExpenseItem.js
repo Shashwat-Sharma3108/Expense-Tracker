@@ -4,17 +4,6 @@ import './ExpenseItem.css';
 import React from 'react';
 
 const ExpenseItem=(props) => {
-  // const [title, setTitle] = useState(props.title);
-  // const [color, setColor] = useState("blue");
-  // function handleHover(){
-  //   setColor("purple");
-  // }
-  // function handleLeave(){
-  //   setColor("blue");
-  // }
-  // function clickHandler(){
-  //   setTitle("Updated!"); 
-  // }
   return (
     <Card className='expense-item'>
       <ExpenseDate date={props.date} />
